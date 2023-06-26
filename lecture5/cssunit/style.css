@@ -1,0 +1,27 @@
+div{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+     margin: 20px;
+}
+.outer{
+    width: 50vw;
+    height: 40vh;
+    padding: 30px;
+    background-color: rgb(96, 96, 188);
+    color: white;
+
+}
+.inner{
+    width: 50%;
+    height: 40%;
+    padding: 30px;
+    background-color: rgb(185, 48, 107);
+    color: white;
+
+}
+
+ul{
+    /* font-size: 2em; */
+    font-size: 2rem;
+}
