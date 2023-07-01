@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #010103; */
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+}
+html{
+  overflow-x:hidden;
+}
+header {
+  width: 100%;
+  height: 110px;
+  /* border: 2px solid blue; */
+  /* background-color: #010103; */
+}
+nav {
+  width: 100%;
+  height: 15vh;
+  /* border: 1px solid white; */
+  border-bottom: 1px solid white;
+  background-color: #010103;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+#logo {
+  width: 70px;
+  height: 70px;
+  /* border: 2px solid blue; */
+  margin-top: 30px;
+  margin-right: 30%;
+}
+img {
+  width: 100%;
+}
+ul {
+  width: 40vw;
+  position: relative;
+  right: 17%;
+  list-style: none;
+  display: flex;
+  /* border: 1px solid red; */
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  padding: 10px;
+}
+span {
+  color: white;
+  font-size: 25px;
+}
+.fa-solid {
+  padding: 10px;
+}
+.hamburger {
+  color: white;
+  font-size: 1.5rem;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  a {
+    color: red;
+  }
+  ul {
+    display: none;
+  }
+   span ,.fa-solid{
+    display: flex;
+     
+     
+   }
+}
+
+ 
+
+
+#sec-A {
+  width: 100vw;
+  height: 90vh;
+  border: 2px solid black;
+  background-image: url("./images/home-img.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* overflow-x:hidden; */
+  
+
+}
+.container {
+  position: relative;
+  top: 9rem;
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid white; */
+  width: 36%;
+  left: 10rem;
+}
+#para {
+  color: white;
+  font-size: 20px;
+  /* border: 1px solid white; */
+  width: 90%;
+  line-height: 1.6em;
+  font-family: "Domine", serif;
+  font-family: "Ysabeau Office", sans-serif;
+}
+#button {
+  position: relative;
+  top: 25%;
+  left: 11%;
+  padding: 10px 35px;
+  background-color: #d3ad7f;
+  color: white;
+  font-size: 20px;
+}
+main {
+  width: 100vw;
+  background-color: #030305;
+}
+#main-a {
+  text-align: center;
+  font-size: 40px;
+  color: #d3ad7f;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid white; */
+  width: 100vw;
+
+  background-color: #010103;
+}
+#span {
+  font-size: 40px;
+  background-color: #010103;
+  color: white;
+}
+#middle {
+  width: 100vw;
+  height: 450px;
+  /* border: 2px solid black; */
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#div-1,
+#div-2 {
+  width: 40%;
+  height: 450px;
+  /* border: 1px solid blue; */
+}
+#div-1 {
+  background-image: url("./images/about-img.jpeg");
+  background-position: center right 1px;
+}
+main,
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-top: 3em;
+  padding-left: 20px;
+  color: rgb(249, 224, 224);
+}
+main,
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+  padding: 20px;
+  color: rgb(224, 211, 211);
+}
+#parag {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: rgb(192, 183, 183);
+}
+#btn {
+  color: white;
+  position: relative;
+  top: 1em;
+  left: 1em;
+  border: none;
+  padding: 10px 35px;
+  background-color: #d3ad7f;
+  color: white;
+  font-size: 20px;
+}
+#div-2 {
+  background-color: #13131a;
+}
+/* -------OUR MENU -------- */
+
+#heading {
+  width: 100vw;
+  height: 70px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+#our , #our-p {
+  color: #fff;
+  padding: 0px 20px;
+}
+.menu {
+  color: #d3ad7f;
+}
+/* .our-menu {
+  width: 80vw;
+  min-height: 400px;
+  border: 2px solid black;
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+   
+} */
+/* .div-A,
+.div-B,
+.div-C,
+.div-D {
+  width: 20%;
+  height: 350px;
+  border: 1px solid rgb(152, 142, 142);
+} */
+
+
+
+.img-class {
+  width: 30%;
+  height: 90px;
+  /* border: 1px solid black; */
+  display: flex;
+  position: relative;
+  top: 14%;
+  left: 35%;
+}
+img {
+  width: 100%;
+}
+h3 {
+  width: 70%;
+  margin: 20%;
+   font-size: 20px;
+}
+h4 {
+  position: relative;
+  left: 30%;
+  bottom: 15%;
+  font-family: 'Domine', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;
+}
+strike {
+  font-size: 15px;
+  color: rgb(160, 149, 149);
+}
+#btn-A {
+  position: relative;
+  left: 4rem;
+  bottom: 2rem;
+  padding: 10px 33px;
+  background-color: #d3ad7f;
+  color: white;
+  font-size: 20px;
+}
+.div-1:hover {
+  background-color: white;
+  color: black;
+}
+#btn-A:hover {
+  color: black;
+}
+.div-B1 {
+  width: 20%;
+  height: 350px;
+  border: 1px solid rgb(172, 161, 161);
+}
+
+#sec-B{
+  width: 80vw;
+  height: 100vh;
+   /* border: 1px solid rgb(239, 224, 224); */
+   background-color: #030305;
+   margin: 30px auto;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   flex-wrap: wrap;
+    margin: 30px auto;
+    
+
+}
+.div-1{
+  width: 290px;
+  height: 350px;
+  border: 1px solid  rgb(147, 139, 139);
+  /* background-color: steelblue; */
+  color: white;
+  font-size: 30px;
+
+}
+/* -------------- ******** OUT PRODUCTS ******** ------------ */
+
+#products{
+  width: 100vw;
+  height: 70px;
+  /* border: 1px solid rgb(172, 162, 162); */
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+#sec-C{
+   width: 80vw;
+   height: 500px;
+   /* border: 2px solid rgb(207, 187, 187); */
+   background-color: #030305;
+   margin: 30px 0px 0px 10%;
+   display: flex;
+   gap: 10px;
+   
+
+}
+.div-c{
+  width: 400px;
+  height: 500px; 
+  border: 1px solid  rgb(147, 139, 139);
+
+}
+.icon{
+  width: 60%;
+  height: 60px;
+  /* border: 1px solid red; */
+  margin: 20px auto;
+  margin-left: 33%; 
+   
+   
+}
+.icon>i{
+  border: 1px solid rgb(147, 139, 139);
+  padding: 12px 12px;
+
+}
+
+
+.img-c{
+  width: 40%;
+  height: 250px;
+  /* border: 1px solid white; */
+  margin: 0px 0px 50% 33%; 
+  margin-bottom: 40rem;
+}
+img{
+  width: 100%;
+}
+#para-c{
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 40rem;
+  left: 30%;
+}
+#para-d{
+  color: #D3AD7F;
+  position: relative;
+  bottom: 43rem;
+  left: 35%;
+  width: 40%;
+  display: flex;
+
+}
+#para-d>i{
+  font-size: 15px;
+  /* border: 1px solid white; */
+  padding: 10px 0.5px;
+}
+#para-e{
+  color: white;
+  position: relative;
+  bottom: 44rem;
+  left: 40%;
+   font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+.icon>i:hover{
+  background-color: #D3AD7F;
+  color: black;
+}
