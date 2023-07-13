@@ -1,0 +1,34 @@
+.one{
+    animation-timing-function: ease-in;
+}
+.two{
+    animation-timing-function: ease-out;
+}
+.three{
+    animation-timing-function: ease-in-out;
+}
+.four{
+    animation-timing-function: linear;
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+div:hover{
+    animation: progress;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes progress {
+     from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(500px);
+    } 
+     
+    
+}

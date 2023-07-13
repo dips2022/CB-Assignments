@@ -1,0 +1,16 @@
+.container {
+  width: 200px;
+  height: 250px;
+  border: 2px solid black;
+  background-color: aquamarine;
+  /* margin: 100px auto; */
+  /* transform: translate(100px, -200px);  
+  transform: rotate(1.5turn);
+  transform: scale(2);  */
+  transform: translate(400px ,400px) rotate(360deg) scale(1.1) ;
+  transition-duration: 3s;
+  /* transition-delay: 5s; */
+  transition-timing-function: cubic-bezier(0, 0.6, 0.58, 1);
+  /* transition-property: all; */
+
+}

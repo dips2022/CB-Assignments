@@ -1,0 +1,25 @@
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    display: block;
+    animation-name: bounsball;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-direction: ease-in;
+
+}
+@keyframes bounsball{
+    from{
+        transform: translate(0px, 0px) rotate(1.5turn);
+
+    }
+    to{
+        transform: translate(0px, 500px);
+
+    }
+}
+ 
+
