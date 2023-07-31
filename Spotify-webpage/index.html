@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--  Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: black">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: rgb(51, 47, 47)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand h3" href="#"
+          ><img src="./images/logo.png" alt="logo" height="70" width="70" />
+          Spotify</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item h4 p-3">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Favourites</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar compeleted  -->
+
+    <div
+      class="container-fluid d-flex justify-content-center"
+      style="height: 100vh; overflow: hidden"
+    >
+      <div class=" .scroll-containair w-75" style="margin-top: 100px; overflow-y: auto; overflow-x: hidden;-ms-overflow-style: none; scrollbar-width: none;">
+        <div class="" style="height: 200vh" style="overflow-y: scroll">
+          <div class="d-flex" style="height: 230px;background-color: black">
+            <div class="card p-1" style="width: 23rem">
+              <img src="./images/img-1.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card p-1" style="width: 22rem">
+              <img src="./images/img-2.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card p-1" style="width: 22rem">
+              <img src="./images/img-3.webp" class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <span class="h1" style="color: white">Latest Release </span>
+
+          <div class="d-flex" style="height: 400px; margin-top: 20px">
+            <div class="card-1 mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/img-5.webp"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: white">Onism</h5>
+                    <p class="card-text">Aug 11,2017</p>
+                  </div>
+                </div>
+                <div class="row g-0" style="margin-top: 10px">
+                  <div class="col-md-4">
+                    <img
+                      src="./images/img-2.webp"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: white">Onism</h5>
+                      <p class="card-text">Aug 11,2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0" style="margin-top: 10px">
+                <div class="col-md-4">
+                  <img
+                    src="./images/img-4.avif"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: white">Onism</h5>
+                    <p class="card-text">Aug 11,2017</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-1 mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/img-5.webp"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: white">Onism</h5>
+                    <p class="card-text">Aug 11,2017</p>
+                  </div>
+                </div>
+                <div class="row g-0" style="margin-top: 10px">
+                  <div class="col-md-4">
+                    <img
+                      src="./images/img-6.jpeg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: white">Onism</h5>
+                      <p class="card-text">Aug 11,2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0" style="margin-top: 10px">
+                <div class="col-md-4">
+                  <img
+                    src="./images/img-7.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: white">Onism</h5>
+                    <p class="card-text">Aug 11,2017</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 style="color: white">Popular Artist</h1>
+          <div class="image-container">
+            <img src="images/img-4.avif" alt="" />
+            <img src="./images/img-5.webp" alt="" />
+            <img src="./images/img-6.jpeg" alt="" />
+            <img src="./images/img-7.jpeg" alt="" />
+            <img src="./images/img-8.jpeg" alt="" />
+            <img src="./images/img-9.jpeg" alt="" />
+            <img src="./images/img-10.jpeg" alt="" />
+            <img src="./images/img-11.jpeg" alt="" />
+          </div>
+          <div class="image-container-1">
+            <img src="images/img-2.webp" alt="" />
+            <img src="./images/img-3.webp" alt="" />
+            <img src="./images/img-4.avif" alt="" />
+            <img src="./images/img-5.webp" alt="" />
+            <img src="./images/img-6.jpeg" alt="" />
+            <img src="./images/img-7.jpeg" alt="" />
+            <img src="./images/img-8.jpeg" alt="" />
+            <img src="./images/img-9.jpeg" alt="" />
+          </div>
+          <h1 style="color: white">Latest English</h1>
+        </div>
+      </div>
+      <div
+        class="  flex-grow-1"
+        style="height: 10vh; margin-top: 100px; background-color: black"
+      >
+        <div class="right-div d-flex">
+          <div
+            class="justify-content-start"
+            style="font-size: 25px; position: relative; color: white"
+            ;
+          >
+            Queue
+          </div>
+          <!-- <div class="left-div-1"> -->
+            <div
+              class="justify-content-end"
+              style="position: absolute; right: 30px"
+            >
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="font-size: 20px; color: aqua"
+              >
+                Queue
+              </a>
+            </div>
+          </div>
+          <div class="container-div">
+            <div class="Queue">
+              <div class="box-1">01</div>
+              <div class="box-2">
+                <img src="./images/img-2.webp" alt="" />
+              </div>
+              <div class="box-3">
+                <p>
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="Queue">
+              <div class="box-1">02</div>
+              <div class="box-2">
+                <img src="./images/img-3.webp" alt="" />
+              </div>
+              <div class="box-3">
+                <p>
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="Queue">
+              <div class="box-1">03</div>
+              <div class="box-2">
+                <img src="./images/img-4.avif" alt="" />
+              </div>
+              <div class="box-3">
+                <p>
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="Queue">
+              <div class="box-1">04</div>
+              <div class="box-2">
+                <img src="./images/img-5.webp" alt="" />
+              </div>
+              <div class="box-3">
+                <p>
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="Queue">
+              <div class="box-1">05</div>
+              <div class="box-2">
+                <img src="./images/img-6.jpeg" alt="" />
+              </div>
+              <div class="box-3">
+                <p>
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="Queue">
+              <div class="box-1">06</div>
+              <div class="box-2">
+                <img src="./images/img-7.jpeg" alt="" />
+              </div>
+              <div class="box-3">
+                <p>
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="Queue">
+              <div class="box-1">07</div>
+              <div class="box-2">
+                <img src="./images/img-8.jpeg" alt="" />
+              </div>
+              <div class="box-3">
+                <p class="h1">
+                  See You <br />
+                  Justin Beiber
+                </p>
+              </div>
+              <div class="box-4">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

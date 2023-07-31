@@ -1,0 +1,41 @@
+todo
+(6) [10, 20, 30, true, 'sam', false]
+
+
+
+(9) [10, 20, 30, true, 'sam', false, Array(4), undefined, null]
+app.js:3 10
+app.js:4 (4) [100, Array(3), 200, 300]
+app.js:5 100
+app.js:6 (3) [2000, 2001, 2002]
+app.js:7 undefined
+app.js:12 9
+
+
+methods----------------
+
+1 . push() // adds towards the end
+
+(3) ['gym', 'js', 'system design']
+app.js:18 (4) ['gym', 'js', 'system design', 'hackthon']
+
+
+2. pop()
+(3) ['gym', 'js', 'system design']0: "gym"1: "js"length: 2[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+app.js:29 (2) ['gym', 'js']
+
+3 . shift()
+ it removes first element in Array
+
+ 4. unshift()
+
+
+ 5.join('->>')
+ 10->>20->>30->>40->>50->>60
+
+ 6. includes()
+
+ true
+app.js:58 false
+app.js:59 false
+app.js:60 false
