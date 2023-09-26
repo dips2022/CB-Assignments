@@ -1,0 +1,20 @@
+p{
+    font-size: 40px;
+}
+
+ /* section{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(223, 143, 38);
+
+} */
+/* div{
+    width: 50%;
+    height: 50%; it goes to parent
+    background-color: blueviolet;
+}  */
+
+ul>li{
+    /* font-size: 2em; snowball effect */
+    font-size: 2rem;  /* root ke size ke miltiple  (html)  */
+}

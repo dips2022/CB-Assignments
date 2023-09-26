@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+    transition-duration: 2s;
+
+}
+.parent:hover .child{
+  width: 100vw;
+
+}
+.child-1{
+    background-color: rgb(67, 151, 151);
+    /* transition-timing-function: linear;    constant speed */
+    transition-timing-function: cubic-bezier(.19,.94,1,1.04);
+}
+.child-2{
+    background-color: rgb(47, 30, 154);
+    transition-timing-function: ease-in; /*fast at the end */
+
+}
+.child-3{
+    background-color: rgb(194, 28, 153);
+    transition-timing-function: ease-out; /*fast at the start */
+
+}
+.child-4{
+    background-color: rgb(205, 45, 50);
+    transition-timing-function: ease-in-out; /* slow at the start and fast in the middle  and slow at end */
+
+}

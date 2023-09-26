@@ -1,0 +1,18 @@
+h1{
+    color:rgb(123, 34, 1);
+    /* rgba -> alpha channel -> opacity it takes a value (0 to 1) */
+}
+h2{
+    color: rgba(254, 12, 34, 0.5);
+}
+h3{
+     color: #0f6b95;
+}
+/* p{
+    color: #ff0000;
+} */
+/* OPACITY  in Hex*/
+
+p{
+    color: #ff0000;   /*ff->1 00-> 0*/
+}

@@ -1,0 +1,5 @@
+ul > li{
+    border-top: 1px solid black;
+    font-size: 40px;
+    color: darkcyan;
+}

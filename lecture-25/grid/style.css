@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 90vw;
+    height: 90vh;
+    margin: 20px auto;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    /* grid-template-rows: 100px 100px 100px; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-rows: repeat(3 ,100px);
+    grid-auto-flow: row;
+    /* grid-auto-flow: column; */
+
+}
+.child{
+    border: 2px solid blue;
+}

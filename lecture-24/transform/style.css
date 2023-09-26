@@ -1,0 +1,24 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    transition-duration: 2s;
+    margin: 50px auto;
+}
+
+div:hover{
+    /* transform: rotateX(90deg); */
+    transform: rotateY(180deg);
+    /* transform: scaleX(5); */
+    transform: scaleY(5);
+    transform: skewY(30deg);
+    /* transform: skewX(55deg); */
+
+}
+section{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    transform: skew(30deg);
+    margin: 30px auto;
+}

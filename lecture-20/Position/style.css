@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    border:1px solid red;
+    margin: 20px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#static #middle{
+    position: static; /* something which is not changing */
+    top: 100px;
+    left: 500px;
+}
+
+
+#relative #middle{
+    position: relative; /* */
+    bottom: 50px;
+    top: 50px;
+    /* left: 50px; */
+    right: 50px;
+      
+}
